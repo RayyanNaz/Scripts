@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# This scripts demonstrates the use of variables in bash
+# This script also demonstrates user input with read
+
+echo "Hello world"
+echo "What is your name"
+read name
+echo "Hello $name"

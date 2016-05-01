@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+use warnings;
+use strict;
+
+my $test = 30;
+print
+  "Here is a list containing strings ",
+  "numbers ", 3.6,
+  " and variables $test \n"; 
