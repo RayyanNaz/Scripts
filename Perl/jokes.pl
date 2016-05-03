@@ -20,5 +20,4 @@ if (not exists $jokes{$choice}) {
 }
 
 print "How many $choice porogrammers does it take to change a lightbulb?..\n";
-sleep 2;
 print "$jokes{$choice}\n";
