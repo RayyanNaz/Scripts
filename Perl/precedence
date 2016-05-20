@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+use warnings;
+
+print(3 + 2) * 4; # this returns an error becuase the print function has a higher precedence 
+#perl thinks the the perentheses are refering to the print function this can be fixed with another
+#set of perenthesese
+print((3 + 2) * 4);
