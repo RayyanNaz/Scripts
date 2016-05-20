@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# This is a comment and will not be interpreted by bash
+echo "Hello World"
