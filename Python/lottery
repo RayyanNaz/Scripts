@@ -1,0 +1,6 @@
+#!/usr/bin/python
+
+from random import randint
+
+num = randint(1, 50)
+print(num)

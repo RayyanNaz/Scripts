@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# This script demonstrates the use of shell commands
+
+pwd # shows the present working directory
+ls -a # shows all files in the directory including hidden files

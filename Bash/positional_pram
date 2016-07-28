@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#This script takes a filename as an argument and renames it
+
+mv $1 $2
+cat $2
