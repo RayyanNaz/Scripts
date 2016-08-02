@@ -8,10 +8,10 @@ def ask():
     roll_again = input('Roll?(y/n):').lower()
     
     if roll_again == 'y':
-        return True
+            return True
 
     else:
-        return False
+            return False
 
 while ask():
-    roll_dice()
+	roll_dice()

@@ -1,18 +1,15 @@
-import os #alows you to execute os commands
+import os # alows you to execute os cwommands
 
-print("Would you like to update the system [y/n]:") 
-option = input().lower()
-if option == "y":
-    print("Update started")
-    os.system("sudo pacman -Syu && echo Done") 
-     #change sudo pacman -Syu to whatever aplies to your distibution
+def update():
+    if option == 'y':
+        print("Update started")
+        os.system("sudo apt-get update && sudo apt-get upgrade") 
+        print('Done')
+        return True
 
-elif option == "n":
-    print("Goodbye")
+    else:
+        return False
 
-elif option == "":
-    print("You didnt type anything")
 
-else:
-    print(option + " was not a valid answer")
-
+option = input("Would you like to update the system [y/n]: ").lower()
+update()
